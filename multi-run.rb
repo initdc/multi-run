@@ -58,7 +58,7 @@ if __FILE__ == $0
 
     file = "#{TEMP_DIR}/#{proj}_#{orig}"
 
-    # url = url.gsub("https://github.com", "https://gh-rep.ubtu.net")
+    url = url.gsub("https://github.com", "https://gh-rep.ubtu.net")
     save_binary(file, url)
   end
 
